@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" href="style.css">
+      <title>Exercice 1</title>
+  </head>
+  <body>
+    <h1>Shifumi</h1>
+    <p>Choisissez entre la pierre, la feuille et le ciseau.<br />
+      La pierre est plus forte que le ciseau qui est plus fort que la feuille qui est plus forte que la pierre.<br />
+    Après avoir choisi, cliquez sur "Shifumi !" pour voir si vous avez vaincu l'ordinateur.</p>
+    <form>
+      <select name="shifumi">
+        <option>Pierre</option>
+        <option>Feuille</option>
+        <option>Ciseau</option>
+      </select>
+      <button type="button" name="button" id="button">Shifumi !</button>
+    </form>
+    <p id="result"></p>
+    <p id="players"></p>
+    <p id="statistics"></p>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
