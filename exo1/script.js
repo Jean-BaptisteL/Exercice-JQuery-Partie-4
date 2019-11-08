@@ -16,7 +16,7 @@ $(function(){
     if (shifumi == userChoice) {
       $('#result').text('Égalité !');
       $('#result').css('color','black');
-    } else if (shifumi == 'Pierre' && userChoice == 'Feuille' || shifumi =='Feuille' && userChoice =='Ciseau' || shifumi == 'Ciseau' && userChoice =='Pierre') {
+    } else if ((shifumi == 'Pierre' && userChoice == 'Feuille') || (shifumi =='Feuille' && userChoice =='Ciseau') || (shifumi == 'Ciseau' && userChoice =='Pierre')) {
       $('#result').text('C\'est la victoire !!!');
       $('#result').css('color','green');
       victoryNbr++;

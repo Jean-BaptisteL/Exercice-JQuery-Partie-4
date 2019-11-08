@@ -1,0 +1,13 @@
+body{
+  text-align: center;
+}
+div{
+  margin: 5px;
+}
+label{
+  margin-right: 5px;
+}
+p{
+  margin-left: 5px;
+  display: inline;
+}
